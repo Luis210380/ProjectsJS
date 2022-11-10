@@ -1,0 +1,10 @@
+.btn1 {
+  background-color: #c9e46b; /* Green */
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 15px 50px; /* px distance between the margin of the button and the text inside */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
