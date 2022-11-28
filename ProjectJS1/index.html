@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<title> Color Flipper || Simple </title>
+<link href ="Styles/Style.css" rel="stylesheet">
+<script src="Scripts/script.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-center">
+      <h3>Color Flipper</h3>
+      <ul class="nav-links">
+        <li><a href="index.html">simple</a></li>
+        <li>Red: <input type=number id="Red"> </li>
+        <li>Green: <input type=number id="Green"></li>
+        <li>Blue: <input type=number id="Blue"></li> 
+        <button id="btn0" onclick="informColor()">send color</button> 
+        
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Back ground color: <span id="newColor">Green</span><br/>
+      </span></h2>
+    </div>
+  </nav>
+  <main>
+<div>
+  <h3>Datos de la mascota</h3>
+  <table>
+    <tr><td></td><th>mascota 1</th><th>mascota 2</th></tr>
+    <tr>
+      <th>Nombre: </th><td><input type="string" id="nameMascota1"></td><td><input type="string" id="nameMascota2"></td>
+    </tr>
+    <tr>
+      <th>Edad: </th><td><input type="number" id="ageMascota1"></td><td><input type="number" id="ageMascota2"></td>
+    </tr>
+    <tr>
+      <th>Genero: </th><td><input type="string" id="genre1"></td><td><input type="string" id="genre2"></td>
+    </tr>
+    <tr><td>Enviar:</td><td><button id="btn1" onclick="claffMascota()">Send Info</button></td></tr>
+    <tr><td>answer:</td><td id="saludo1"></td><td id="saludo2"></td></tr>
+    <tr><td>la suma de las edades:</td><td id="sumaEdades"></td></tr>
+  </table>
+</div>
+   
+  </main>
+  <footer>hora: <a id="hora"></a></footer> 
+</body>

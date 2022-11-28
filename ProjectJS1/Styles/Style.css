@@ -1,0 +1,33 @@
+#btn0 {
+  background-color: #c9e46b; /* Green */
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 20px 30px; /* px distance between the margin of the button and the text inside */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+li {
+  padding-top: 2%;
+  font-style: italic;
+  list-style-type: square;
+  
+}
+input {
+  border-radius: 0%;
+  border: 2px solid blue;
+  margin: 4px 0;
+}
+#nameMascota{
+  border: 3px solid red;
+}
+th{
+  color:red;
+}
+#saludo1, #saludo2{
+  border-color: black;
+  border-style: solid dashed;
+  font-family: 'Times New Roman',"Serif";
+  color: blue;
+}
