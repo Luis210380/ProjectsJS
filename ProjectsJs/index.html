@@ -9,20 +9,41 @@
 <body>
   <nav>
     <div class="nav-center">
-      <h4>Color Flipper</h4>
+      <h3>Color Flipper</h3>
       <ul class="nav-links">
         <li><a href="index.html">simple</a></li>
-        <li><a href="hex.html">hex</a></li>
+        <li>Red: <input type=number id="Red"> </li>
+        <li>Green: <input type=number id="Green"></li>
+        <li>Blue: <input type=number id="Blue"></li> 
+        <button id="btn0" onclick="informColor()">send color</button> 
+        
       </ul>
     </div>
-  </nav>
-  <main>
     <div class="container">
       <h2>Back ground color: <span id="newColor">Green</span><br/>
       </span></h2>
-      <button class="btn1" id="btn1" onclick="changeColor()">Green</button>
     </div>
+  </nav>
+  <main>
+<div>
+  <h3>Datos de la mascota</h3>
+  <table>
+    <tr><td></td><th>mascota 1</th><th>mascota 2</th></tr>
+    <tr>
+      <th>Nombre: </th><td><input type="string" id="nameMascota1"></td><td><input type="string" id="nameMascota2"></td>
+    </tr>
+    <tr>
+      <th>Edad: </th><td><input type="number" id="ageMascota1"></td><td><input type="number" id="ageMascota2"></td>
+    </tr>
+    <tr>
+      <th>Genero: </th><td><input type="string" id="genre1"></td><td><input type="string" id="genre2"></td>
+    </tr>
+    <tr><td>Enviar:</td><td><button id="btn1" onclick="claffMascota()">Send Info</button></td></tr>
+    <tr><td>answer:</td><td id="saludo1"></td><td id="saludo2"></td></tr>
+    <tr><td>la suma de las edades:</td><td id="sumaEdades"></td></tr>
+  </table>
+</div>
    
   </main>
-
+  <footer>hora: <a id="hora"></a></footer> 
 </body>
