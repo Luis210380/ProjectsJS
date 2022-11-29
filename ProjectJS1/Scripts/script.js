@@ -48,12 +48,12 @@
   }
   function claffMascota(){
 
-    nombre1 = document.getElementById("nameMascota1").value;
-    edad1 = document.getElementById("ageMascota1").value;
-    genero1 = document.getElementById("genre1").value;
-    nombre2 = document.getElementById("nameMascota2").value;
-    edad2 = document.getElementById("ageMascota2").value;
-    genero2 = document.getElementById("genre2").value;
+    nombre1 = (document.getElementById("nameMascota1").value || "Michi");
+    edad1 = (document.getElementById("ageMascota1").value || '3');
+    genero1 = (document.getElementById("genre1").value || "Macho");
+    nombre2 = (document.getElementById("nameMascota2").value || "Miah");
+    edad2 = (document.getElementById("ageMascota2").value || '7');
+    genero2 = (document.getElementById("genre2").value || "Hembra");
     const pio = new Mascota(nombre1,edad1,genero1);
     const mara = new Mascota(nombre2,edad2,genero2);
     console.log(pio);

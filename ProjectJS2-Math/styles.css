@@ -1,0 +1,49 @@
+input[type=text]{
+  width: 150px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 94, 0);
+  vertical-align: baseline;
+  text-align: center;
+}
+input[type=number]{
+  width: 80px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 94, 0);
+  border-radius: 5px;
+  vertical-align: baseline;
+  text-align: center;
+}
+img{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.text{
+  width: 130px;
+  height: 50px;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.ans{
+  border: solid rgb(100, 200, 100);
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+#newExpression, #words, #repExp{
+  width: 150px;
+  height: auto;
+  vertical-align: top;
+}
+label{
+  vertical-align: text-top;
+  text-align: center;
+}
